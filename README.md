@@ -82,7 +82,7 @@
     
 - **Tools**
     
-    Stable Diffusion Web UI A1111 ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) ![notion](https://img.shields.io/badge/Notion-%23000000%3Fstyle%3Dsocial%26logo%3Dnotion%26logoColor%3Dblack
+    Stable Diffusion Web UI A1111 <br> ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) <br> ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) <br> ![notion](https://img.shields.io/badge/Notion-%23000000%3Fstyle%3Dsocial%26logo%3Dnotion%26logoColor%3Dblack
 )
     
 <br>
@@ -125,6 +125,8 @@
 2. 추가적인 기능들을 담당할 Module 구현 
 3. Generated Image quality를 위한 Prompt 및 여러 추가 LoRA 모델 연구
 
+<br>
+
 ### 프로젝트 구현 내용
 
 1. **T2I, I2I, Upscale**
@@ -143,7 +145,7 @@
 
 3. **Upscale** 해상도 증가와 디테일 부분 캐치 I2I의 output img를 그대로 base 기반으로 두고, denoise를 아주 낮게 설정한다. 그리고 ControlNet의 tile_Resample preprocess 기법을 통해 다시 샘플링을 따르면서 해상도를 늘리는 작업을 수행합니다. Script 해상도를 올리 때 여러가지 기법들이 존재하지만, webUI 내의 script의 Ultrasharp-upscale 을 이용해 해상도를 올리면서 디테일한 부분들을 더 자연스럽게 생성하게끔 합니다.
 
-<br>
+<br><br>
 
 
 2. **기능 Module**
@@ -152,17 +154,24 @@
     + 생성되는 이미지의 오류들을 Inpaint 기능을 이용하여 후 보정하는 기능을 API를 통해 구현.
     + 아래의 2사진은 원작자의 Adetailer 작동예시 Image
 
-![image](./asset/4.%20모델%20예시.png)
-![image](./asset/4.%20모델%20예시2.png)
+
+<p align="center">
+	<img src="./asset/4. 모델 예시.png" alt="one" width="28%" height="28%" />
+	<img src="./asset/4. 모델 예시2.png" alt="two" width="28%" height="28%" />
+	<figcaption align="center"></figcaption>
+</p>
 
 <br>
 
 - **ControlNet**
     + 아래와 같이 고른 사진의 pose estimation을 생성하는 Image에 Pose를 같이 생성되게끔 함
 
-![image](./asset/pose4.png.png)
 
-![image](./asset/pose_result.png)
+<p align="center">
+	<img src="./asset/pose4.png.png" alt="one" width="28%" height="28%" />
+	<img src="./asset/pose_result.png" alt="two" width="28%" height="28%" />
+	<figcaption align="center"></figcaption>
+</p>
 
 <br>
 
