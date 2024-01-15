@@ -1,2 +1,204 @@
-# Project_SD
-Stable Diffusion ê¸°ë°˜ ì‚¬ì§„ I2I ì„œë¹„ìŠ¤ MVP ê°œë°œ
+# -	Stable Diffusion ±â¹İ »çÁø I2I ¼­ºñ½º MVP °³¹ß
+
+Âü¿©ÀÚ : ¹Ú»ç¹«¿¤, °­µ¿ÈÆ, ÁöÁÖ¿µ, ³²±Ã¸¼À½, Á¤¾ç¼·, ±è¾ÆÁø
+
+---
+
+**ÇÁ·ÎÁ§Æ® ±â°£:** 2023.11 ~ 2023.12 (6ÁÖ)
+
+**ÇÁ·ÎÁ§Æ® Tool:** Flask, Gradio, Stable Diffusion web UI, Github, Notion, Discord
+
+
+---
+
+<br/>
+
+![video](./asset/video.gif)
+
+<br/>
+
+**Output**
+<br>
+
+- **Àå¿ø¿µ (¾ÆÀÌºê)**
+<p align="center">
+	<img src="./asset/outputs/Untitled 10.png" alt="one" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 11.png" alt="two" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 12.png" alt="three" width="28%" height="28%" />
+ 	<figcaption align="center"></figcaption>
+</p>
+
+<br>
+
+- **IU**
+
+<p align="center">
+	<img src="./asset/outputs/Untitled 13.png" alt="one" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 14.png" alt="two" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 15.png" alt="three" width="28%" height="28%" />
+	<figcaption align="center"></figcaption>
+</p>
+
+
+<br/>
+
+- **Ä«¸®³ª (Aespa)**
+
+<p align="center">
+	<img src="./asset/outputs/Untitled 16.png" alt="one" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 17.png" alt="two" width="28%" height="28%" />
+	<img src="./asset/outputs/Untitled 18.png" alt="three" width="28%" height="28%" />
+	<figcaption align="center"></figcaption>
+</p>
+
+
+<br>
+
+### ****ÇÁ·ÎÁ§Æ® °³¿ä****
+
+- User ÀÇ Image¸¦ ÇĞ½ÀÇÑ ÈÄ, °³ÀÎÈ­¿Í ´õºÒ¾î »ı¼º ImageÀÇ Æ÷Áî¿Í »ö°¨À» ´õÇÑ AI ½ºÆ©µğ¿À ÇÁ·ÎÇÊ »çÁøÀ» ¸¸µå´Â ÇÁ·ÎÁ§Æ®
+- Minimum Variable Product°¡ ±¸µ¿ÇÒ WEB page¸¦ ´ã´çÇÒ Gradio API ±¸Ãà
+- °³ÀÎÈ­¸¦ ´ã´çÇÒ LoRA¸¦ ÇÏ´Â training ±¸Ãà
+- Stable Diffusion Web UI API¸¦ ÀÌ¿ëÇÑ  Module Code ±¸Ãà
+- »ı¼º Image quality ÁõÁøÀ» À§ÇÑ Prompt ¿¬±¸
+
+### ÇÁ·ÎÁ§Æ® ¹è°æ
+
+- SNS¿Í Àú¿¬·ÉÃ÷¿¡°Ô ÀÎ±â ¸¹Àº ½ºÆ©µğ¿À ÇÁ·ÎÇÊ »çÁø
+- ½ºÆ©µğ¿À ÇÁ·ÎÇÊ¿¡ ¼Ò¿äµÇ´Â ¸¹Àº ±İÀüÀû À°Ã¼Àû ÇÇ·Î
+- ÀÌ¹Ì ¿©Å¸ ±â¾÷µéµµ ½ÃÀÛÇÏ°í ÀÖ´Â AI »ı¼º ½ÃÀå
+
+<br>
+
+### ÇÁ·ÎÁ§Æ® ±â¼ú ½ºÅÃ
+
+- **Backend**
+    
+    <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+    
+- **Frontend**
+    
+    Graido
+    
+- **Tools**
+    
+    Stable Diffusion Web UI A1111 ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) ![notion](https://img.shields.io/badge/Notion-%23000000%3Fstyle%3Dsocial%26logo%3Dnotion%26logoColor%3Dblack
+)
+    
+<br>
+
+### °³¹ß ÀÎ¿ø
+
+| ÀÌ¸§   | ´ã´ç ¾÷¹«                                                                                                                                                                                                 |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¹Ú»ç¹«¿¤ | - Base model code ±¸Ãà <br> - Stable DiffusionÀ» È°¿ëÇÑ model Module code ±¸Ãà<br>- Image Concept¿¡ ¸Â´Â Prompt Reasearch and Development °³¼± |
+| °­µ¿ÈÆ | - LoRA Reasearch <br> - LoRA training code ±¸Çö                                     |
+| ÁöÁÖ¿µ | - Base Prompt ±¸Ãà ¹× Reasearch and Development                                     |
+| ±è¾ÆÁø | - Preprocess ¹× µ¥ÀÌÅÍ ¼öÁı                                     |
+| Á¤¾ç¼· | - Web page¸¦ ´ã´çÇÒ Gradio API ±¸Ãà <br> - API ¸¦ ¿¬µ¿ÇÒ Code ±¸Ãà <br> - Git Maintance                                     |
+| ³²±Ã¸¼À½ | - µÎ°³ÀÇ ¿ÂÇÁ·¹¹Ì½º Local server¸¦ ÀÌ¿ëÇÑ È¯°æ ±¸Ãà <br> - Flask API¸¦ ±¸Ãà                                     |
+
+<br>
+
+## ÇÁ·ÎÁ§Æ® ÁøÇà °úÁ¤
+
+1. À¯ÀúÀÇ ÀÌ¹ÌÁö 10ÀåÀ» ÅëÇØ Easy-PhotoÀÇ train ÈÄ userÀÇ LoRA »ı¼ºÇÑ´Ù.
+2. »ı¼ºµÈ LoRA¸¦ ÇÁ·ÒÇÁÆ®¿¡ Ãß°¡ÇÑ´Ù
+3. Generation Inference start
+4. T2I·Î ÀÌ¹ÌÁöÀÇ »À´ë¿Í Æ÷Áî ¹× À¯ÀúÀÇ ¾ó±¼ »ı¼ºÇÑ´Ù.
+5. userÀÇ LoRA ¿Í ¼Õ µîÀ» ÈÄº¸Á¤ ¼öÇàÇÑ´Ù.
+6. T2IÀÇ outputÀ» I2I·Î Ã³¸®ÇÏ¿© ÀÌ¹ÌÁöÀÇ tone-filter ¸¦ denoise ¹ÌÈ­ÀÛ¾÷À» ¼öÇàÇÑ´Ù.
+7. userÀÇ LoRA ¿Í ¼Õ µîÀ» ´Ù½Ã ÇÑ¹ø ´õ ÈÄº¸Á¤ ¼öÇàÇÑ´Ù. (ÀÌ¹ÌÁö°¡ denoise¸¦ ÅëÇØ º¯ÇÑ ºÎºĞÀ» º¯µ¿¾ø°Ô ÇÏ±â À§ÇØ¼­)
+8. I2I¸¦ ´Ù½Ã ÇÑ¹ø´õ ÁøÇà, ÇÏÁö¸¸ ÀÌ¹ø¿¡´Â Denoise¸¦ ³·°Ô ÁÖ°í, ÇØ»óµµ¸¦ ¸¸À» ³ôÀÌ¸é¼­ detail upÀ» ¸ñÀûÀ¸·Î upscale ÁøÇàÇÑ´Ù.
+9. ÃÖÁ¾ÀûÀÎ ÀÌ¹ÌÁö¸¦ »ı¼ºÈÄ, Graido·Î Àü¼ÛÇÑ´Ù.
+10. Gradio¸¦ ÅëÇØ user¿¡°Ô Ãâ·ÂÇÏ¿© º¸¿©Áİ´Ï´Ù.
+
+<br>
+
+![image](./asset/Untitled%209.png)
+
+<br>
+
+### ÇÁ·ÎÁ§Æ® ´ã´ç ÁøÇà °úÁ¤
+
+1. Stable Diffusion T2I, I2I, ±×¸®°í UpscaleÀ» À§ÇÑ ÄÚµå ±¸Ãà
+2. Ãß°¡ÀûÀÎ ±â´ÉµéÀ» ´ã´çÇÒ Module ±¸Çö 
+3. Generated Image quality¸¦ À§ÇÑ Prompt ¹× ¿©·¯ Ãß°¡ LoRA ¸ğµ¨ ¿¬±¸
+
+### ÇÁ·ÎÁ§Æ® ±¸Çö ³»¿ë
+
+1. **T2I, I2I, Upscale**
+
+![image](./asset/Untitled%208.png)
+
+<br>
+
+1. **T2I** userÀÇ ¾ó±¼ ÇĞ½À userÀÇ ÀÌ¹ÌÁö¸¦ ¹Ş¾Æ ÇĞ½ÀÀ» ÁøÇàÇÏ¿© LoRA¸¦ ¸¸µçµÚ, ÀúÈñ°¡ ¸¸µç Prompt¸¦ ±â¹İÀ¸·Î ControlNet ±â¹ıÀ» ÅëÇØ »ı¼ºÀÇ ¸¶Áö¸·´Ü¿¡ ConditioningÀ» Ãß°¡ÇÏ¿© Pose¸¦ °°ÀÌ ±¸ÇöÇÕ´Ï´Ù. º¸Á¤ Adetailer¸¦ ÅëÇØ º¸Á¤ÇÒ ºÎºĞÀ» Detection model; Yolov8 ¸ğµ¨À» ÅëÇØ ¾ó±¼°ú ¼ÕÀ» dectionÀ» ÁøÇàÇÏ°í, º¸Á¤ÇÏ´Â ºÎºĞ ¸¸À» Inpainting ±â¹ıÀ» ÅëÇØ inpaint ÇÒ ºÎºĞ¿¡ Àü¿ë Prompt¸¦ µû·Î ÁÖ¾î, TextToImg ´Ü°è¿¡¼­ °°ÀÌ »ı¼ºÇÕ´Ï´Ù.
+
+<br>
+
+2. **I2I** ¹ÌÈ­ ÀÛ¾÷ T2IÀÇ output img¸¦ i2i´Ü¿¡¼­ÀÇ base img ±â¹İÀ» µÎ¾î »ı¼ºÀ» ½ÃµµÇÕ´Ï´Ù. I2I ´Ü°è¿¡¼­´Â T2I¿Í ´Ù¸¥ Prompt¸¦ µÎ¾î¼­ ImgÀÇ ´À³¦°ú »ö°¨À» ´Ù¸£°Ô »ı¼ºÇÏ´Â°Í¿¡ ÃÊÁ¡À» µÎ°í »ı¼ºÇÕ´Ï´Ù. ÇÏÁö¸¸ Denoise¸¦ Å©°Ô ÁÖÁö ¾Ê´Â¼±¿¡¼­¸¸ »ı¼ºÀ» ½ÃµµÇÕ´Ï´Ù. º¸Á¤ T2I¿¡¼­¿Í ¸¶Âù°¡Áö·Î, Adetailer¸¦ ÅëÇØ °°Àº ºÎÀ§¸¦ dectingÇÏ°í, ¾î±×·¯Áö´Â ºÎÀ§°¡ ¾øµµ·Ï ¹æÁöÇÕ´Ï´Ù.
+
+<br>
+
+3. **Upscale** ÇØ»óµµ Áõ°¡¿Í µğÅ×ÀÏ ºÎºĞ Ä³Ä¡ I2IÀÇ output img¸¦ ±×´ë·Î base ±â¹İÀ¸·Î µÎ°í, denoise¸¦ ¾ÆÁÖ ³·°Ô ¼³Á¤ÇÑ´Ù. ±×¸®°í ControlNetÀÇ tile_Resample preprocess ±â¹ıÀ» ÅëÇØ ´Ù½Ã »ùÇÃ¸µÀ» µû¸£¸é¼­ ÇØ»óµµ¸¦ ´Ã¸®´Â ÀÛ¾÷À» ¼öÇàÇÕ´Ï´Ù. Script ÇØ»óµµ¸¦ ¿Ã¸® ¶§ ¿©·¯°¡Áö ±â¹ıµéÀÌ Á¸ÀçÇÏÁö¸¸, webUI ³»ÀÇ scriptÀÇ Ultrasharp-upscale À» ÀÌ¿ëÇØ ÇØ»óµµ¸¦ ¿Ã¸®¸é¼­ µğÅ×ÀÏÇÑ ºÎºĞµéÀ» ´õ ÀÚ¿¬½º·´°Ô »ı¼ºÇÏ°Ô²û ÇÕ´Ï´Ù.
+
+<br>
+
+
+2. **±â´É Module**
+
+- **Adetailer**
+    + »ı¼ºµÇ´Â ÀÌ¹ÌÁöÀÇ ¿À·ùµéÀ» Inpaint ±â´ÉÀ» ÀÌ¿ëÇÏ¿© ÈÄ º¸Á¤ÇÏ´Â ±â´ÉÀ» API¸¦ ÅëÇØ ±¸Çö.
+    + ¾Æ·¡ÀÇ 2»çÁøÀº ¿øÀÛÀÚÀÇ Adetailer ÀÛµ¿¿¹½Ã Image
+
+![image](./asset/4.%20¸ğµ¨%20¿¹½Ã.png)
+![image](./asset/4.%20¸ğµ¨%20¿¹½Ã2.png)
+
+<br>
+
+- **ControlNet**
+    + ¾Æ·¡¿Í °°ÀÌ °í¸¥ »çÁøÀÇ pose estimationÀ» »ı¼ºÇÏ´Â Image¿¡ Pose¸¦ °°ÀÌ »ı¼ºµÇ°Ô²û ÇÔ
+
+![image](./asset/pose4.png.png)
+
+![image](./asset/pose_result.png)
+
+<br>
+
+3. **Prompt ¹× ¿©·¯ Ãß°¡ LoRA ¸ğµ¨ ¿¬±¸**
+
+- ÇÁ·ÎÁ§Æ® ³»ÀÇ ´Ù¾çÇÑ »ı¼ºÀ» À§ÇÑ LoRA ¼±º° ¹× ½ÇÇèÀ» ÇÏ¿´À½
+
+![image](./asset/ex10%20detailed%20skin%20Àû¿ë.png)
+
+![image](./asset/ex10%20epicrealism%20¾È¾²´Â°Ô%20ÇÁ·ÒÇÁÆ®°¡%20ÁöÄÑÁü..png)
+
+![image](./asset/90sflesh.png)
+
+![image](./asset/add_detail.png)
+
+![image](./asset/epicrealife.png)
+
+![image](./asset/ex4.png)
+
+![image](./asset/filmvelvia.png)
+
+
+<br><br>
+
+### ÇÁ·ÎÁ§Æ® ÇÑ°è ¹× °³¼± ¹æ¾È
+
+**ÇÑ°è**
+
+- ÇÁ·ÎÁ§Æ®ÀÇ ½Ã°£ÀÌ ºÎÁ·ÇÏ¿© User ÀÇ ¾ó±¼ ÇĞ½ÀÇÏ¿© ¸¸µå´Â LoRAÀÇ ¼º´ÉÀÌ Çâ»óÀÌ ¾î·Á¿üÀ½
+- ÇĞ½ÀÀ» ÇÏ´Â ±¸°£ÀÌ »ı°Ü ¿À·¡ °É¸®´Â ÇÑ°è°¡ Á¸Àç ¼­ºñ½º¸¦ À§ÇÑ ÂªÀº ½Ã°£¾È¿¡ »ı¼ºÇÏ´Â°ÍÀÌ ¾î·Á¿üÀ½.
+- ÇÁ·ÎÁ§Æ®ÀÇ µ¥ÀÌÅÍ ·Î½á ¿¬¿¹ÀÎ ¾ó±¼À» »ç¿ëÇÏ¿© ¾²´Ùº¸´Ï ÇĞ½À µ¥ÀÌÅÍÀÇ È­Áú¿¡ µû¶ó ¼º´ÉÀÌ ÃµÂ÷¸¸º°ÀÌ¿´À½.
+- ÀÚ¿øÀÌ ºÎÁ·ÇÔ¿¡ µû¸¥ º£ÀÌ½º ¸ğµ¨ fine-tuning ¸øÇØº½
+
+**°³¼± ¹æ¾È**
+
+- ¿À·¡°É¸®´Â ¼­ºñ½º¸¦ À§ÇÑ ·Î±×ÀÎ ±â´É ¹× ÀÌ¸ŞÀÏ¿¡ UserÀÇ ÀÌ¹ÌÁö¸¦ º¸³»´Â ±â´É
+- Training timeÀ» ÁÙÀÌ´Â code °³¹ß
+- »ı¼º imageÀÇ ´õ ÁÁÀº prompt ¿¬±¸
+- Dreambooth¸¦ ÀÌ¿ëÇÑ ½Ç»ç º£ÀÌ½º ¸ğµ¨ °³¹ß
