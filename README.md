@@ -1,12 +1,12 @@
-# -	Stable Diffusion ±â¹Ý »çÁø I2I ¼­ºñ½º MVP °³¹ß
+# -	Stable Diffusion ê¸°ë°˜ ì‚¬ì§„ I2I ì„œë¹„ìŠ¤ MVP ê°œë°œ
 
-Âü¿©ÀÚ : ¹Ú»ç¹«¿¤, °­µ¿ÈÆ, ÁöÁÖ¿µ, ³²±Ã¸¼À½, Á¤¾ç¼·, ±è¾ÆÁø
+ì°¸ì—¬ìž : ë°•ì‚¬ë¬´ì—˜, ê°•ë™í›ˆ, ì§€ì£¼ì˜, ë‚¨ê¶ë§‘ìŒ, ì •ì–‘ì„­, ê¹€ì•„ì§„
 
 ---
 
-**ÇÁ·ÎÁ§Æ® ±â°£:** 2023.11 ~ 2023.12 (6ÁÖ)
+**í”„ë¡œì íŠ¸ ê¸°ê°„:** 2023.11 ~ 2023.12 (6ì£¼)
 
-**ÇÁ·ÎÁ§Æ® Tool:** Flask, Gradio, Stable Diffusion web UI, Github, Notion, Discord
+**í”„ë¡œì íŠ¸ Tool:** Flask, Gradio, Stable Diffusion web UI, Github, Notion, Discord
 
 
 ---
@@ -20,7 +20,7 @@
 **Output**
 <br>
 
-- **Àå¿ø¿µ (¾ÆÀÌºê)**
+- **ìž¥ì›ì˜ (ì•„ì´ë¸Œ)**
 <p align="center">
 	<img src="./asset/outputs/Untitled 10.png" alt="one" width="28%" height="28%" />
 	<img src="./asset/outputs/Untitled 11.png" alt="two" width="28%" height="28%" />
@@ -42,7 +42,7 @@
 
 <br/>
 
-- **Ä«¸®³ª (Aespa)**
+- **ì¹´ë¦¬ë‚˜ (Aespa)**
 
 <p align="center">
 	<img src="./asset/outputs/Untitled 16.png" alt="one" width="28%" height="28%" />
@@ -54,23 +54,23 @@
 
 <br>
 
-### ****ÇÁ·ÎÁ§Æ® °³¿ä****
+### ****í”„ë¡œì íŠ¸ ê°œìš”****
 
-- User ÀÇ Image¸¦ ÇÐ½ÀÇÑ ÈÄ, °³ÀÎÈ­¿Í ´õºÒ¾î »ý¼º ImageÀÇ Æ÷Áî¿Í »ö°¨À» ´õÇÑ AI ½ºÆ©µð¿À ÇÁ·ÎÇÊ »çÁøÀ» ¸¸µå´Â ÇÁ·ÎÁ§Æ®
-- Minimum Variable Product°¡ ±¸µ¿ÇÒ WEB page¸¦ ´ã´çÇÒ Gradio API ±¸Ãà
-- °³ÀÎÈ­¸¦ ´ã´çÇÒ LoRA¸¦ ÇÏ´Â training ±¸Ãà
-- Stable Diffusion Web UI API¸¦ ÀÌ¿ëÇÑ  Module Code ±¸Ãà
-- »ý¼º Image quality ÁõÁøÀ» À§ÇÑ Prompt ¿¬±¸
+- User ì˜ Imageë¥¼ í•™ìŠµí•œ í›„, ê°œì¸í™”ì™€ ë”ë¶ˆì–´ ìƒì„± Imageì˜ í¬ì¦ˆì™€ ìƒ‰ê°ì„ ë”í•œ AI ìŠ¤íŠœë””ì˜¤ í”„ë¡œí•„ ì‚¬ì§„ì„ ë§Œë“œëŠ” í”„ë¡œì íŠ¸
+- Minimum Variable Productê°€ êµ¬ë™í•  WEB pageë¥¼ ë‹´ë‹¹í•  Gradio API êµ¬ì¶•
+- ê°œì¸í™”ë¥¼ ë‹´ë‹¹í•  LoRAë¥¼ í•˜ëŠ” training êµ¬ì¶•
+- Stable Diffusion Web UI APIë¥¼ ì´ìš©í•œ  Module Code êµ¬ì¶•
+- ìƒì„± Image quality ì¦ì§„ì„ ìœ„í•œ Prompt ì—°êµ¬
 
-### ÇÁ·ÎÁ§Æ® ¹è°æ
+### í”„ë¡œì íŠ¸ ë°°ê²½
 
-- SNS¿Í Àú¿¬·ÉÃ÷¿¡°Ô ÀÎ±â ¸¹Àº ½ºÆ©µð¿À ÇÁ·ÎÇÊ »çÁø
-- ½ºÆ©µð¿À ÇÁ·ÎÇÊ¿¡ ¼Ò¿äµÇ´Â ¸¹Àº ±ÝÀüÀû À°Ã¼Àû ÇÇ·Î
-- ÀÌ¹Ì ¿©Å¸ ±â¾÷µéµµ ½ÃÀÛÇÏ°í ÀÖ´Â AI »ý¼º ½ÃÀå
+- SNSì™€ ì €ì—°ë ¹ì¸ ì—ê²Œ ì¸ê¸° ë§Žì€ ìŠ¤íŠœë””ì˜¤ í”„ë¡œí•„ ì‚¬ì§„
+- ìŠ¤íŠœë””ì˜¤ í”„ë¡œí•„ì— ì†Œìš”ë˜ëŠ” ë§Žì€ ê¸ˆì „ì  ìœ¡ì²´ì  í”¼ë¡œ
+- ì´ë¯¸ ì—¬íƒ€ ê¸°ì—…ë“¤ë„ ì‹œìž‘í•˜ê³  ìžˆëŠ” AI ìƒì„± ì‹œìž¥
 
 <br>
 
-### ÇÁ·ÎÁ§Æ® ±â¼ú ½ºÅÃ
+### í”„ë¡œì íŠ¸ ê¸°ìˆ  ìŠ¤íƒ
 
 - **Backend**
     
@@ -87,31 +87,31 @@
     
 <br>
 
-### °³¹ß ÀÎ¿ø
+### ê°œë°œ ì¸ì›
 
-| ÀÌ¸§   | ´ã´ç ¾÷¹«                                                                                                                                                                                                 |
+| ì´ë¦„   | ë‹´ë‹¹ ì—…ë¬´                                                                                                                                                                                                 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¹Ú»ç¹«¿¤ | - Base model code ±¸Ãà <br> - Stable DiffusionÀ» È°¿ëÇÑ model Module code ±¸Ãà<br>- Image Concept¿¡ ¸Â´Â Prompt Reasearch and Development °³¼± |
-| °­µ¿ÈÆ | - LoRA Reasearch <br> - LoRA training code ±¸Çö                                     |
-| ÁöÁÖ¿µ | - Base Prompt ±¸Ãà ¹× Reasearch and Development                                     |
-| ±è¾ÆÁø | - Preprocess ¹× µ¥ÀÌÅÍ ¼öÁý                                     |
-| Á¤¾ç¼· | - Web page¸¦ ´ã´çÇÒ Gradio API ±¸Ãà <br> - API ¸¦ ¿¬µ¿ÇÒ Code ±¸Ãà <br> - Git Maintance                                     |
-| ³²±Ã¸¼À½ | - µÎ°³ÀÇ ¿ÂÇÁ·¹¹Ì½º Local server¸¦ ÀÌ¿ëÇÑ È¯°æ ±¸Ãà <br> - Flask API¸¦ ±¸Ãà                                     |
+| ë°•ì‚¬ë¬´ì—˜ | - Base model code êµ¬ì¶• <br> - Stable Diffusionì„ í™œìš©í•œ model Module code êµ¬ì¶•<br>- Image Conceptì— ë§žëŠ” Prompt Reasearch and Development ê°œì„  |
+| ê°•ë™í›ˆ | - LoRA Reasearch <br> - LoRA training code êµ¬í˜„                                     |
+| ì§€ì£¼ì˜ | - Base Prompt êµ¬ì¶• ë° Reasearch and Development                                     |
+| ê¹€ì•„ì§„ | - Preprocess ë° ë°ì´í„° ìˆ˜ì§‘                                     |
+| ì •ì–‘ì„­ | - Web pageë¥¼ ë‹´ë‹¹í•  Gradio API êµ¬ì¶• <br> - API ë¥¼ ì—°ë™í•  Code êµ¬ì¶• <br> - Git Maintance                                     |
+| ë‚¨ê¶ë§‘ìŒ | - ë‘ê°œì˜ ì˜¨í”„ë ˆë¯¸ìŠ¤ Local serverë¥¼ ì´ìš©í•œ í™˜ê²½ êµ¬ì¶• <br> - Flask APIë¥¼ êµ¬ì¶•                                     |
 
 <br>
 
-## ÇÁ·ÎÁ§Æ® ÁøÇà °úÁ¤
+## í”„ë¡œì íŠ¸ ì§„í–‰ ê³¼ì •
 
-1. À¯ÀúÀÇ ÀÌ¹ÌÁö 10ÀåÀ» ÅëÇØ Easy-PhotoÀÇ train ÈÄ userÀÇ LoRA »ý¼ºÇÑ´Ù.
-2. »ý¼ºµÈ LoRA¸¦ ÇÁ·ÒÇÁÆ®¿¡ Ãß°¡ÇÑ´Ù
+1. ìœ ì €ì˜ ì´ë¯¸ì§€ 10ìž¥ì„ í†µí•´ Easy-Photoì˜ train í›„ userì˜ LoRA ìƒì„±í•œë‹¤.
+2. ìƒì„±ëœ LoRAë¥¼ í”„ë¡¬í”„íŠ¸ì— ì¶”ê°€í•œë‹¤
 3. Generation Inference start
-4. T2I·Î ÀÌ¹ÌÁöÀÇ »À´ë¿Í Æ÷Áî ¹× À¯ÀúÀÇ ¾ó±¼ »ý¼ºÇÑ´Ù.
-5. userÀÇ LoRA ¿Í ¼Õ µîÀ» ÈÄº¸Á¤ ¼öÇàÇÑ´Ù.
-6. T2IÀÇ outputÀ» I2I·Î Ã³¸®ÇÏ¿© ÀÌ¹ÌÁöÀÇ tone-filter ¸¦ denoise ¹ÌÈ­ÀÛ¾÷À» ¼öÇàÇÑ´Ù.
-7. userÀÇ LoRA ¿Í ¼Õ µîÀ» ´Ù½Ã ÇÑ¹ø ´õ ÈÄº¸Á¤ ¼öÇàÇÑ´Ù. (ÀÌ¹ÌÁö°¡ denoise¸¦ ÅëÇØ º¯ÇÑ ºÎºÐÀ» º¯µ¿¾ø°Ô ÇÏ±â À§ÇØ¼­)
-8. I2I¸¦ ´Ù½Ã ÇÑ¹ø´õ ÁøÇà, ÇÏÁö¸¸ ÀÌ¹ø¿¡´Â Denoise¸¦ ³·°Ô ÁÖ°í, ÇØ»óµµ¸¦ ¸¸À» ³ôÀÌ¸é¼­ detail upÀ» ¸ñÀûÀ¸·Î upscale ÁøÇàÇÑ´Ù.
-9. ÃÖÁ¾ÀûÀÎ ÀÌ¹ÌÁö¸¦ »ý¼ºÈÄ, Graido·Î Àü¼ÛÇÑ´Ù.
-10. Gradio¸¦ ÅëÇØ user¿¡°Ô Ãâ·ÂÇÏ¿© º¸¿©ÁÝ´Ï´Ù.
+4. T2Ië¡œ ì´ë¯¸ì§€ì˜ ë¼ˆëŒ€ì™€ í¬ì¦ˆ ë° ìœ ì €ì˜ ì–¼êµ´ ìƒì„±í•œë‹¤.
+5. userì˜ LoRA ì™€ ì† ë“±ì„ í›„ë³´ì • ìˆ˜í–‰í•œë‹¤.
+6. T2Iì˜ outputì„ I2Ië¡œ ì²˜ë¦¬í•˜ì—¬ ì´ë¯¸ì§€ì˜ tone-filter ë¥¼ denoise ë¯¸í™”ìž‘ì—…ì„ ìˆ˜í–‰í•œë‹¤.
+7. userì˜ LoRA ì™€ ì† ë“±ì„ ë‹¤ì‹œ í•œë²ˆ ë” í›„ë³´ì • ìˆ˜í–‰í•œë‹¤. (ì´ë¯¸ì§€ê°€ denoiseë¥¼ í†µí•´ ë³€í•œ ë¶€ë¶„ì„ ë³€ë™ì—†ê²Œ í•˜ê¸° ìœ„í•´ì„œ)
+8. I2Ië¥¼ ë‹¤ì‹œ í•œë²ˆë” ì§„í–‰, í•˜ì§€ë§Œ ì´ë²ˆì—ëŠ” Denoiseë¥¼ ë‚®ê²Œ ì£¼ê³ , í•´ìƒë„ë¥¼ ë§Œì„ ë†’ì´ë©´ì„œ detail upì„ ëª©ì ìœ¼ë¡œ upscale ì§„í–‰í•œë‹¤.
+9. ìµœì¢…ì ì¸ ì´ë¯¸ì§€ë¥¼ ìƒì„±í›„, Graidoë¡œ ì „ì†¡í•œë‹¤.
+10. Gradioë¥¼ í†µí•´ userì—ê²Œ ì¶œë ¥í•˜ì—¬ ë³´ì—¬ì¤ë‹ˆë‹¤.
 
 <br>
 
@@ -119,15 +119,15 @@
 
 <br>
 
-### ÇÁ·ÎÁ§Æ® ´ã´ç ÁøÇà °úÁ¤
+### í”„ë¡œì íŠ¸ ë‹´ë‹¹ ì§„í–‰ ê³¼ì •
 
-1. Stable Diffusion T2I, I2I, ±×¸®°í UpscaleÀ» À§ÇÑ ÄÚµå ±¸Ãà
-2. Ãß°¡ÀûÀÎ ±â´ÉµéÀ» ´ã´çÇÒ Module ±¸Çö 
-3. Generated Image quality¸¦ À§ÇÑ Prompt ¹× ¿©·¯ Ãß°¡ LoRA ¸ðµ¨ ¿¬±¸
+1. Stable Diffusion T2I, I2I, ê·¸ë¦¬ê³  Upscaleì„ ìœ„í•œ ì½”ë“œ êµ¬ì¶•
+2. ì¶”ê°€ì ì¸ ê¸°ëŠ¥ë“¤ì„ ë‹´ë‹¹í•  Module êµ¬í˜„ 
+3. Generated Image qualityë¥¼ ìœ„í•œ Prompt ë° ì—¬ëŸ¬ ì¶”ê°€ LoRA ëª¨ë¸ ì—°êµ¬
 
 <br>
 
-### ÇÁ·ÎÁ§Æ® ±¸Çö ³»¿ë
+### í”„ë¡œì íŠ¸ êµ¬í˜„ ë‚´ìš©
 
 1. **T2I, I2I, Upscale**
 
@@ -135,53 +135,53 @@
 
 <br>
 
-1. **T2I** userÀÇ ¾ó±¼ ÇÐ½À userÀÇ ÀÌ¹ÌÁö¸¦ ¹Þ¾Æ ÇÐ½ÀÀ» ÁøÇàÇÏ¿© LoRA¸¦ ¸¸µçµÚ, ÀúÈñ°¡ ¸¸µç Prompt¸¦ ±â¹ÝÀ¸·Î ControlNet ±â¹ýÀ» ÅëÇØ »ý¼ºÀÇ ¸¶Áö¸·´Ü¿¡ ConditioningÀ» Ãß°¡ÇÏ¿© Pose¸¦ °°ÀÌ ±¸ÇöÇÕ´Ï´Ù. º¸Á¤ Adetailer¸¦ ÅëÇØ º¸Á¤ÇÒ ºÎºÐÀ» Detection model; Yolov8 ¸ðµ¨À» ÅëÇØ ¾ó±¼°ú ¼ÕÀ» dectionÀ» ÁøÇàÇÏ°í, º¸Á¤ÇÏ´Â ºÎºÐ ¸¸À» Inpainting ±â¹ýÀ» ÅëÇØ inpaint ÇÒ ºÎºÐ¿¡ Àü¿ë Prompt¸¦ µû·Î ÁÖ¾î, TextToImg ´Ü°è¿¡¼­ °°ÀÌ »ý¼ºÇÕ´Ï´Ù.
+1. **T2I** userì˜ ì–¼êµ´ í•™ìŠµ userì˜ ì´ë¯¸ì§€ë¥¼ ë°›ì•„ í•™ìŠµì„ ì§„í–‰í•˜ì—¬ LoRAë¥¼ ë§Œë“ ë’¤, ì €í¬ê°€ ë§Œë“  Promptë¥¼ ê¸°ë°˜ìœ¼ë¡œ ControlNet ê¸°ë²•ì„ í†µí•´ ìƒì„±ì˜ ë§ˆì§€ë§‰ë‹¨ì— Conditioningì„ ì¶”ê°€í•˜ì—¬ Poseë¥¼ ê°™ì´ êµ¬í˜„í•©ë‹ˆë‹¤. ë³´ì • Adetailerë¥¼ í†µí•´ ë³´ì •í•  ë¶€ë¶„ì„ Detection model; Yolov8 ëª¨ë¸ì„ í†µí•´ ì–¼êµ´ê³¼ ì†ì„ dectionì„ ì§„í–‰í•˜ê³ , ë³´ì •í•˜ëŠ” ë¶€ë¶„ ë§Œì„ Inpainting ê¸°ë²•ì„ í†µí•´ inpaint í•  ë¶€ë¶„ì— ì „ìš© Promptë¥¼ ë”°ë¡œ ì£¼ì–´, TextToImg ë‹¨ê³„ì—ì„œ ê°™ì´ ìƒì„±í•©ë‹ˆë‹¤.
 
 <br>
 
-2. **I2I** ¹ÌÈ­ ÀÛ¾÷ T2IÀÇ output img¸¦ i2i´Ü¿¡¼­ÀÇ base img ±â¹ÝÀ» µÎ¾î »ý¼ºÀ» ½ÃµµÇÕ´Ï´Ù. I2I ´Ü°è¿¡¼­´Â T2I¿Í ´Ù¸¥ Prompt¸¦ µÎ¾î¼­ ImgÀÇ ´À³¦°ú »ö°¨À» ´Ù¸£°Ô »ý¼ºÇÏ´Â°Í¿¡ ÃÊÁ¡À» µÎ°í »ý¼ºÇÕ´Ï´Ù. ÇÏÁö¸¸ Denoise¸¦ Å©°Ô ÁÖÁö ¾Ê´Â¼±¿¡¼­¸¸ »ý¼ºÀ» ½ÃµµÇÕ´Ï´Ù. º¸Á¤ T2I¿¡¼­¿Í ¸¶Âù°¡Áö·Î, Adetailer¸¦ ÅëÇØ °°Àº ºÎÀ§¸¦ dectingÇÏ°í, ¾î±×·¯Áö´Â ºÎÀ§°¡ ¾øµµ·Ï ¹æÁöÇÕ´Ï´Ù.
+2. **I2I** ë¯¸í™” ìž‘ì—… T2Iì˜ output imgë¥¼ i2ië‹¨ì—ì„œì˜ base img ê¸°ë°˜ì„ ë‘ì–´ ìƒì„±ì„ ì‹œë„í•©ë‹ˆë‹¤. I2I ë‹¨ê³„ì—ì„œëŠ” T2Iì™€ ë‹¤ë¥¸ Promptë¥¼ ë‘ì–´ì„œ Imgì˜ ëŠë‚Œê³¼ ìƒ‰ê°ì„ ë‹¤ë¥´ê²Œ ìƒì„±í•˜ëŠ”ê²ƒì— ì´ˆì ì„ ë‘ê³  ìƒì„±í•©ë‹ˆë‹¤. í•˜ì§€ë§Œ Denoiseë¥¼ í¬ê²Œ ì£¼ì§€ ì•ŠëŠ”ì„ ì—ì„œë§Œ ìƒì„±ì„ ì‹œë„í•©ë‹ˆë‹¤. ë³´ì • T2Iì—ì„œì™€ ë§ˆì°¬ê°€ì§€ë¡œ, Adetailerë¥¼ í†µí•´ ê°™ì€ ë¶€ìœ„ë¥¼ dectingí•˜ê³ , ì–´ê·¸ëŸ¬ì§€ëŠ” ë¶€ìœ„ê°€ ì—†ë„ë¡ ë°©ì§€í•©ë‹ˆë‹¤.
 
 <br>
 
-3. **Upscale** ÇØ»óµµ Áõ°¡¿Í µðÅ×ÀÏ ºÎºÐ Ä³Ä¡ I2IÀÇ output img¸¦ ±×´ë·Î base ±â¹ÝÀ¸·Î µÎ°í, denoise¸¦ ¾ÆÁÖ ³·°Ô ¼³Á¤ÇÑ´Ù. ±×¸®°í ControlNetÀÇ tile_Resample preprocess ±â¹ýÀ» ÅëÇØ ´Ù½Ã »ùÇÃ¸µÀ» µû¸£¸é¼­ ÇØ»óµµ¸¦ ´Ã¸®´Â ÀÛ¾÷À» ¼öÇàÇÕ´Ï´Ù. Script ÇØ»óµµ¸¦ ¿Ã¸® ¶§ ¿©·¯°¡Áö ±â¹ýµéÀÌ Á¸ÀçÇÏÁö¸¸, webUI ³»ÀÇ scriptÀÇ Ultrasharp-upscale À» ÀÌ¿ëÇØ ÇØ»óµµ¸¦ ¿Ã¸®¸é¼­ µðÅ×ÀÏÇÑ ºÎºÐµéÀ» ´õ ÀÚ¿¬½º·´°Ô »ý¼ºÇÏ°Ô²û ÇÕ´Ï´Ù.
+3. **Upscale** í•´ìƒë„ ì¦ê°€ì™€ ë””í…Œì¼ ë¶€ë¶„ ìºì¹˜ I2Iì˜ output imgë¥¼ ê·¸ëŒ€ë¡œ base ê¸°ë°˜ìœ¼ë¡œ ë‘ê³ , denoiseë¥¼ ì•„ì£¼ ë‚®ê²Œ ì„¤ì •í•œë‹¤. ê·¸ë¦¬ê³  ControlNetì˜ tile_Resample preprocess ê¸°ë²•ì„ í†µí•´ ë‹¤ì‹œ ìƒ˜í”Œë§ì„ ë”°ë¥´ë©´ì„œ í•´ìƒë„ë¥¼ ëŠ˜ë¦¬ëŠ” ìž‘ì—…ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤. Script í•´ìƒë„ë¥¼ ì˜¬ë¦¬ ë•Œ ì—¬ëŸ¬ê°€ì§€ ê¸°ë²•ë“¤ì´ ì¡´ìž¬í•˜ì§€ë§Œ, webUI ë‚´ì˜ scriptì˜ Ultrasharp-upscale ì„ ì´ìš©í•´ í•´ìƒë„ë¥¼ ì˜¬ë¦¬ë©´ì„œ ë””í…Œì¼í•œ ë¶€ë¶„ë“¤ì„ ë” ìžì—°ìŠ¤ëŸ½ê²Œ ìƒì„±í•˜ê²Œë” í•©ë‹ˆë‹¤.
 
 <br><br>
 
 
-2. **±â´É Module**
+2. **ê¸°ëŠ¥ Module**
 
 - **Adetailer**
-    + »ý¼ºµÇ´Â ÀÌ¹ÌÁöÀÇ ¿À·ùµéÀ» Inpaint ±â´ÉÀ» ÀÌ¿ëÇÏ¿© ÈÄ º¸Á¤ÇÏ´Â ±â´ÉÀ» API¸¦ ÅëÇØ ±¸Çö.
-    + ¾Æ·¡ÀÇ 2»çÁøÀº ¿øÀÛÀÚÀÇ Adetailer ÀÛµ¿¿¹½Ã Image
+    + ìƒì„±ë˜ëŠ” ì´ë¯¸ì§€ì˜ ì˜¤ë¥˜ë“¤ì„ Inpaint ê¸°ëŠ¥ì„ ì´ìš©í•˜ì—¬ í›„ ë³´ì •í•˜ëŠ” ê¸°ëŠ¥ì„ APIë¥¼ í†µí•´ êµ¬í˜„.
+    + ì•„ëž˜ì˜ 2ì‚¬ì§„ì€ ì›ìž‘ìžì˜ Adetailer ìž‘ë™ì˜ˆì‹œ Image
 
 
 <p align="center">
-	<img src="./asset/4. ¸ðµ¨ ¿¹½Ã.png" alt="one" width="28%" height="28%" />
-	<img src="./asset/4. ¸ðµ¨ ¿¹½Ã2.png" alt="two" width="28%" height="28%" />
+	<img src="./asset/4. ëª¨ë¸ ì˜ˆì‹œ.png" alt="one" width="28%" height="80%" />
+	<img src="./asset/4. ëª¨ë¸ ì˜ˆì‹œ2.png" alt="two" width="28%" height="80%" />
 	<figcaption align="center"></figcaption>
 </p>
 
 <br>
 
 - **ControlNet**
-    + ¾Æ·¡¿Í °°ÀÌ °í¸¥ »çÁøÀÇ pose estimationÀ» »ý¼ºÇÏ´Â Image¿¡ Pose¸¦ °°ÀÌ »ý¼ºµÇ°Ô²û ÇÔ
+    + ì•„ëž˜ì™€ ê°™ì´ ê³ ë¥¸ ì‚¬ì§„ì˜ pose estimationì„ ìƒì„±í•˜ëŠ” Imageì— Poseë¥¼ ê°™ì´ ìƒì„±ë˜ê²Œë” í•¨
 
 
 <p align="center">
-	<img src="./asset/pose4.png.png" alt="one" width="28%" height="28%" />
-	<img src="./asset/pose_result.png" alt="two" width="28%" height="28%" />
+	<img src="./asset/pose4.png.png" alt="one" width="28%" height="80%" />
+	<img src="./asset/pose_result.png" alt="two" width="28%" height="80%" />
 	<figcaption align="center"></figcaption>
 </p>
 
 <br>
 
-3. **Prompt ¹× ¿©·¯ Ãß°¡ LoRA ¸ðµ¨ ¿¬±¸**
+3. **Prompt ë° ì—¬ëŸ¬ ì¶”ê°€ LoRA ëª¨ë¸ ì—°êµ¬**
 
-- ÇÁ·ÎÁ§Æ® ³»ÀÇ ´Ù¾çÇÑ »ý¼ºÀ» À§ÇÑ LoRA ¼±º° ¹× ½ÇÇèÀ» ÇÏ¿´À½
+- í”„ë¡œì íŠ¸ ë‚´ì˜ ë‹¤ì–‘í•œ ìƒì„±ì„ ìœ„í•œ LoRA ì„ ë³„ ë° ì‹¤í—˜ì„ í•˜ì˜€ìŒ
 
-![image](./asset/ex10%20detailed%20skin%20Àû¿ë.png)
+![image](./asset/ex10%20detailed%20skin%20ì ìš©.png)
 
-![image](./asset/ex10%20epicrealism%20¾È¾²´Â°Ô%20ÇÁ·ÒÇÁÆ®°¡%20ÁöÄÑÁü..png)
+![image](./asset/ex10%20epicrealism%20ì•ˆì“°ëŠ”ê²Œ%20í”„ë¡¬í”„íŠ¸ê°€%20ì§€ì¼œì§..png)
 
 ![image](./asset/90sflesh.png)
 
@@ -196,18 +196,18 @@
 
 <br><br>
 
-### ÇÁ·ÎÁ§Æ® ÇÑ°è ¹× °³¼± ¹æ¾È
+### í”„ë¡œì íŠ¸ í•œê³„ ë° ê°œì„  ë°©ì•ˆ
 
-**ÇÑ°è**
+**í•œê³„**
 
-- ÇÁ·ÎÁ§Æ®ÀÇ ½Ã°£ÀÌ ºÎÁ·ÇÏ¿© User ÀÇ ¾ó±¼ ÇÐ½ÀÇÏ¿© ¸¸µå´Â LoRAÀÇ ¼º´ÉÀÌ Çâ»óÀÌ ¾î·Á¿üÀ½
-- ÇÐ½ÀÀ» ÇÏ´Â ±¸°£ÀÌ »ý°Ü ¿À·¡ °É¸®´Â ÇÑ°è°¡ Á¸Àç ¼­ºñ½º¸¦ À§ÇÑ ÂªÀº ½Ã°£¾È¿¡ »ý¼ºÇÏ´Â°ÍÀÌ ¾î·Á¿üÀ½.
-- ÇÁ·ÎÁ§Æ®ÀÇ µ¥ÀÌÅÍ ·Î½á ¿¬¿¹ÀÎ ¾ó±¼À» »ç¿ëÇÏ¿© ¾²´Ùº¸´Ï ÇÐ½À µ¥ÀÌÅÍÀÇ È­Áú¿¡ µû¶ó ¼º´ÉÀÌ ÃµÂ÷¸¸º°ÀÌ¿´À½.
-- ÀÚ¿øÀÌ ºÎÁ·ÇÔ¿¡ µû¸¥ º£ÀÌ½º ¸ðµ¨ fine-tuning ¸øÇØº½
+- í”„ë¡œì íŠ¸ì˜ ì‹œê°„ì´ ë¶€ì¡±í•˜ì—¬ User ì˜ ì–¼êµ´ í•™ìŠµí•˜ì—¬ ë§Œë“œëŠ” LoRAì˜ ì„±ëŠ¥ì´ í–¥ìƒì´ ì–´ë ¤ì› ìŒ
+- í•™ìŠµì„ í•˜ëŠ” êµ¬ê°„ì´ ìƒê²¨ ì˜¤ëž˜ ê±¸ë¦¬ëŠ” í•œê³„ê°€ ì¡´ìž¬ ì„œë¹„ìŠ¤ë¥¼ ìœ„í•œ ì§§ì€ ì‹œê°„ì•ˆì— ìƒì„±í•˜ëŠ”ê²ƒì´ ì–´ë ¤ì› ìŒ.
+- í”„ë¡œì íŠ¸ì˜ ë°ì´í„° ë¡œì¨ ì—°ì˜ˆì¸ ì–¼êµ´ì„ ì‚¬ìš©í•˜ì—¬ ì“°ë‹¤ë³´ë‹ˆ í•™ìŠµ ë°ì´í„°ì˜ í™”ì§ˆì— ë”°ë¼ ì„±ëŠ¥ì´ ì²œì°¨ë§Œë³„ì´ì˜€ìŒ.
+- ìžì›ì´ ë¶€ì¡±í•¨ì— ë”°ë¥¸ ë² ì´ìŠ¤ ëª¨ë¸ fine-tuning ëª»í•´ë´„
 
-**°³¼± ¹æ¾È**
+**ê°œì„  ë°©ì•ˆ**
 
-- ¿À·¡°É¸®´Â ¼­ºñ½º¸¦ À§ÇÑ ·Î±×ÀÎ ±â´É ¹× ÀÌ¸ÞÀÏ¿¡ UserÀÇ ÀÌ¹ÌÁö¸¦ º¸³»´Â ±â´É
-- Training timeÀ» ÁÙÀÌ´Â code °³¹ß
-- »ý¼º imageÀÇ ´õ ÁÁÀº prompt ¿¬±¸
-- Dreambooth¸¦ ÀÌ¿ëÇÑ ½Ç»ç º£ÀÌ½º ¸ðµ¨ °³¹ß
+- ì˜¤ëž˜ê±¸ë¦¬ëŠ” ì„œë¹„ìŠ¤ë¥¼ ìœ„í•œ ë¡œê·¸ì¸ ê¸°ëŠ¥ ë° ì´ë©”ì¼ì— Userì˜ ì´ë¯¸ì§€ë¥¼ ë³´ë‚´ëŠ” ê¸°ëŠ¥
+- Training timeì„ ì¤„ì´ëŠ” code ê°œë°œ
+- ìƒì„± imageì˜ ë” ì¢‹ì€ prompt ì—°êµ¬
+- Dreamboothë¥¼ ì´ìš©í•œ ì‹¤ì‚¬ ë² ì´ìŠ¤ ëª¨ë¸ ê°œë°œ
