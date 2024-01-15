@@ -156,8 +156,8 @@
 
 
 <p align="center">
-	<img src="./asset/4. 모델 예시.png" alt="one" width="28%" height="80%" />
-	<img src="./asset/4. 모델 예시2.png" alt="two" width="28%" height="80%" />
+	<img src="./asset/4. 모델 예시.png" alt="one" width="40%" height="50%" />
+	<img src="./asset/4. 모델 예시2.png" alt="two" width="40%" height="50%" />
 	<figcaption align="center"></figcaption>
 </p>
 
@@ -168,8 +168,8 @@
 
 
 <p align="center">
-	<img src="./asset/pose4.png.png" alt="one" width="28%" height="80%" />
-	<img src="./asset/pose_result.png" alt="two" width="28%" height="80%" />
+	<img src="./asset/pose4.png.png" alt="one" width="40%" height="50%" />
+	<img src="./asset/pose_result.png" alt="two" width="40%" height="50%" />
 	<figcaption align="center"></figcaption>
 </p>
 
