@@ -11,6 +11,39 @@
 
 ---
 
+### ****프로젝트 개요****
+
+- User 의 Image를 학습한 후, 개인화와 더불어 생성 Image의 포즈와 색감을 더한 AI 스튜디오 프로필 사진을 만드는 프로젝트
+- Minimum Variable Product
+  	+ Stable Diffusion을 이용한 End-to-End 모델 및 시현 WEB page를 담당할 Gradio API 구축 목표 프로젝트
+- 개인화를 담당할 LoRA를 하는 training 구축
+- Stable Diffusion Web UI API를 이용한  Module Code 구축
+- 생성 Image quality 증진을 위한 Prompt 연구
+
+### 프로젝트 배경
+
+- SNS와 저연령층에게 인기 많은 스튜디오 프로필 사진
+- 스튜디오 프로필에 소요되는 많은 금전적 육체적 피로
+- 이미 여타 기업들도 시작하고 있는 AI 생성 시장
+
+### 프로젝트 기술 스택
+
+- **Backend**
+    
+    Flask
+    
+- **Frontend**
+    
+    Gradio
+    
+- **Tools**
+    
+    Stable Diffusion Web UI A1111 <br> Github <br> Discord <br> Notion
+    
+<br>
+
+---
+
 <br/>
 
 ![video](./asset/video.gif)
@@ -54,38 +87,6 @@
 
 <br>
 
-### ****프로젝트 개요****
-
-- User 의 Image를 학습한 후, 개인화와 더불어 생성 Image의 포즈와 색감을 더한 AI 스튜디오 프로필 사진을 만드는 프로젝트
-- Minimum Variable Product가 구동할 WEB page를 담당할 Gradio API 구축
-- 개인화를 담당할 LoRA를 하는 training 구축
-- Stable Diffusion Web UI API를 이용한  Module Code 구축
-- 생성 Image quality 증진을 위한 Prompt 연구
-
-### 프로젝트 배경
-
-- SNS와 저연령츠에게 인기 많은 스튜디오 프로필 사진
-- 스튜디오 프로필에 소요되는 많은 금전적 육체적 피로
-- 이미 여타 기업들도 시작하고 있는 AI 생성 시장
-
-<br>
-
-### 프로젝트 기술 스택
-
-- **Backend**
-    
-    <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-    
-- **Frontend**
-    
-    Graido
-    
-- **Tools**
-    
-    Stable Diffusion Web UI A1111 <br> ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) <br> ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) <br> ![notion](https://img.shields.io/badge/Notion-%23000000%3Fstyle%3Dsocial%26logo%3Dnotion%26logoColor%3Dblack
-)
-    
-<br>
 
 ### 개발 인원
 
@@ -201,8 +202,8 @@
 **한계**
 
 - 프로젝트의 시간이 부족하여 User 의 얼굴 학습하여 만드는 LoRA의 성능이 향상이 어려웠음
-- 학습을 하는 구간이 생겨 오래 걸리는 한계가 존재 서비스를 위한 짧은 시간안에 생성하는것이 어려웠음.
-- 프로젝트의 데이터 로써 연예인 얼굴을 사용하여 쓰다보니 학습 데이터의 화질에 따라 성능이 천차만별이였음.
+- 학습을 하는 구간이 생겨 오래 걸리는 한계가 존재 서비스를 위한 짧은 시간안에 생성하는것이 어려웠음
+- 프로젝트의 데이터 로써 연예인 얼굴을 사용하여 쓰다보니 학습 데이터의 화질에 따라 성능이 천차만별이였음
 - 자원이 부족함에 따른 베이스 모델 fine-tuning 못해봄
 
 **개선 방안**
