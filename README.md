@@ -1,4 +1,4 @@
-# -	Stable Diffusion 기반 사진 I2I 서비스 MVP 개발
+# 	Stable Diffusion 기반 사진 I2I 서비스 MVP 개발
 
 참여자 : 박사무엘, 강동훈, 지주영, 남궁맑음, 정양섭, 김아진
 
