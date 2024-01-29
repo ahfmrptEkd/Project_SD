@@ -1,0 +1,5 @@
+The First-stage distillation
+F_t, F_s : teacher와 student의 backbone에서 나온 feature
+T_i, S_i​ : teacher와 student의 output logits
+
+1단계 distillation에서는 student가 teacher's feature Ft와 logitT_i을 강제로 학습하게 합니다.

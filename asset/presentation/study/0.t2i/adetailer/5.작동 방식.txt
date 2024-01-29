@@ -1,0 +1,4 @@
+1. 이미지 detection을 통해 부분을 인식
+2. 인식한 부분을 새로 묘사한 프롬프트대로 이미지 생성하는 과정을 밞는다.
+	=> inpaint의 방식을 취함.
+Face restoration(얼굴 복원)과 After Detailer 모두 일그러진 얼굴을 복원하는데 사용할 수 있습니다. Face restoration은 CodeFormer 혹은 GFGAN과 같은 별도의 AI 모델을 사용해 얼굴을 복원합니다. 반면 After Detailer의 경우, 이미지에 포함된 얼굴/손 등을 감지한 후, 확대하여 인페인트를 실시하고 다시 원래의 이미지 축척에 맞게 줄이는 방식으로 작동됩니다.

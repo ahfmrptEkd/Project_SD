@@ -1,0 +1,11 @@
+Logit-based distillation
+RTMPose는 keypoint localizjation을 수평 및 수직 좌표에 대한 분류 작업으로 처리하는 SimCC 기반 알고리즘으로 포인트를 예측하게 됩니다.
+그림
+
+그 형태에 맞춰서 logit-based KD를 수행합니다.
+N은 batch에서 person sample을 뜻하고, K는 keypoint num 입니다. COCO-WholeBody의 경우 133개가 되겠네요. 또한 L은 x or y의 location bin입니다. W_{n,k}는 distinguish invisible keypoint를 위한 target weight mask 입니다. V_i는 label value 입니다. 
+
+그러나, label value와 다르게 invisible 키포인트는 teacher에 의한 합당한 값이 될 수 있기 때문에, 아래와 같은 수식으로 만들었다고 합니다. ==마치 confidence와 같은 것
+
+logit의 distillation loss는 다음과 같이 정의 될 수 있습니다. 
+그림 2

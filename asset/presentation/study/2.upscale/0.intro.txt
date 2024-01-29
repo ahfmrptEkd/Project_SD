@@ -1,0 +1,3 @@
+3 methods to upscale images in Stable Diffusion (ControlNet tile upscale, SD upscale, AI upscale)
+
+3가지의  upscale 방식이 존재한다.

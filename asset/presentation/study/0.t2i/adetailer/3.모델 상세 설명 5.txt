@@ -1,0 +1,15 @@
+5. Use decoupled head and delete the objectness branch
+Decoupled head를 사용하고, objectness loss를 삭제했다.
+
+Objectness는 객체의 confidence score를 결정짓는 여러가지 loss 기법중 하나라고 보면 된다.
+그렇다고 객체의 confidence가 사라진건 아니고, objectness loss 외에 dfl loss, a class loss, and ciou loss 등의 다양한 loss로 대체했다고 한다.
+
+Decoupled head는 헤드를 regression과 classification으로 나눠서 사용하는 것을 말한다.
+paper 『Rethinking Classification and Localization for Object Detection』 에 따르면
+one head
+bbox, confidence score, classification
+decoupled head
+classification : class score
+localization : bbox
+
+decoupled head가 one head 보다 속도가 빠르며 AP도 좋다.

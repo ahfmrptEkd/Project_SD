@@ -1,0 +1,8 @@
+RTMPose를 뛰어넘는 논문 : Effective Whole-body Pose Estimation with Two-stages Distillation
+
+그림 1 & 2 & 3
+
+Introduction
+두 단계의 knowledge distillation(KD)를 통한 효율적이고 정확한 pose estimation
+데이터 한계를 극복하여, hand gesture와 facial expression과 다양성 있는 데이터 사용을 통한 실생황을 타겟팅
+RTM Pose를 기반에 KD 방법과 데이터활용을 통한 성능 향상(RTMPose-1: 64.8% -> 66.5%)

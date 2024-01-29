@@ -1,0 +1,2 @@
+4. Replace the first 1x1 Conv with 3x3 Conv in the Bottleneck
+Bottleneck에서 첫번째 컨볼루션 레이어 사이즈를 1x1에서 3x3으로 교체했다.

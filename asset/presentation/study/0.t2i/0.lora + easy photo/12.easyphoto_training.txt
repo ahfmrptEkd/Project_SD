@@ -1,0 +1,22 @@
+보시다시피 프레임워크는 먼저 사용자에게 훈련 이미지를 입력하도록 요청한 다음 얼굴 감지를 수행하여 얼굴 위치를 감지합니다. 프레임워크가 얼굴을 감지하면 얼굴 영역에만 초점을 맞춘 사전 정의된 특정 비율을 사용하여 입력 이미지를 자릅니다.
+
+그런 다음 프레임워크는 피부 미화 및 돌출 감지 모델을 배포하여 깨끗하고 깨끗한 얼굴 훈련 이미지를 얻습니다.
+마지막으로 프레임워크는 이러한 처리된 이미지와 입력 프롬프트를 사용하여 LoRA 모델을 훈련함으로써 사용자별 얼굴 특성을 보다 효과적이고 정확하게 이해할 수 있는 능력을 갖추게 됩니다. 
+The input prompt is fixed as “easyphoto_face, easyphoto, 1person”.
+또한 훈련 단계 동안 프레임워크에는 사용자 입력 이미지와 훈련된 LoRA 모델에 의해 생성된 확인 이미지 사이의 얼굴 ID 차이를 계산하는 중요한 검증 단계가 포함됩니다.
+(image generate by the trained LoRA model and a canny ControlNet based on training template)
+
+ 검증 단계는 LoRA 모델의 융합을 달성하고 궁극적으로 훈련된 LoRA 프레임워크 도플갱어, 즉 사용자의 정확한 디지털 표현으로 변환됩니다.
+This validation procedure is instrumental in achieving the fusion of LoRA models, ultimately ensuring that the trained LoRA model becomes a highly accurate digital representation, or doppelganger, of the user. 
+
+최적의 Face_id 점수를 갖는 검증 이미지를 Face_id 이미지로 선택하고, 이 Face_id 이미지를 사용하여 간섭 생성의 신원 유사성을 향상시킵니다. 
+앙상블 프로세스를 기반으로 프레임워크는 우도 추정이 주요 목표인 LoRA 모델을 훈련하는 반면, 얼굴 신원 유사성을 유지하는 것은 다운스트림 목표입니다.
+ maximum likelihood estimation as the objective,
+ 이 문제를 해결하기 위해 EasyPhoto 프레임워크는 강화 학습 기술을 사용하여 다운스트림 목표를 직접 최적화합니다.
+To bridge this gap, we harness reinforcement learning techniques to directly optimize the downstream objective.
+결과적으로 LoRA 모델이 학습하는 얼굴 특징은 템플릿 생성 결과 간의 유사성을 향상시키는 개선을 보여주고 템플릿 전반에 걸친 일반화도 보여줍니다. 
+Specifically, we define the reward model as the facial identity similarity between the training images and the generated results by LoRA models.
+"Denoising Diffusion Policy Optimization" = DDPO; to fine-tune the LoRA models in order to maximize this reward.
+
+
+결과적으로 LoRA 모델이 학습하는 얼굴 특징은 템플릿 생성 결과 간의 유사성을 향상시키는 개선을 보여주고 템플릿 전반에 걸친 일반화도 보여줍니다. 

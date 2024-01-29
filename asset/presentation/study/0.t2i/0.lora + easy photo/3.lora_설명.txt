@@ -1,0 +1,11 @@
+LoRA(Low-Rank Adaptation)는 매우 간단하다!
+
+1. Pre-trained weight matrix W0가 (d,k) dimension이라고 하자.
+
+2. 그리고 accmulated gradient values(ΔW) 또한 (d,k) dimension을 최종적으로 가지게 될 텐데, 이것을 row-rank r을 이용해서 ΔW = BA로 나타낸다. (B는 (d,r), A는 (r,k) dimension을 가진다.)
+
+    - 또한 r은 min(d,k)보다 작도록 정의된다.
+
+3. 훈련과정에서 W0는 gradient update를 하지 않고, 오히려 BA를 학습하는 과정으로 이루어진다.
+
+4. 즉 forward passing 과정을 표현하면 equation 3와 같다.

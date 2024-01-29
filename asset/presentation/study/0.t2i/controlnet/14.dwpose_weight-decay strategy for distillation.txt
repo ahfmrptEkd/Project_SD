@@ -1,0 +1,16 @@
+Weight-decay strategy for distillation 
+student의 loss는 다음과 같은 total loss로 정리할 수 있습니다.
+ 여기서 알파와 베타는 하이퍼파라미터입니다. 
+
+그림 1
+
+
+detection distillation 방법인 TADF를 따라서, 점차 생기는 distillation의 패널티를 줄이기 위해서, weight decay 전략을 사용합니다.
+이런 방법은 student가 라벨에 집중하고, 더 좋은 성능을 보일 수 있도록 하는데요.
+그래서 이를 위해 시간 함수 r(t)를 사용하게 됩니다. 여기서 t는 current epoch을 뜻하고t_{max}는 total epoch을 뜻합니다. 
+
+그림 2
+
+그리하여 First-stage distillation의 total loss는 다음과 같이 정의됩니다. 
+
+그림 3

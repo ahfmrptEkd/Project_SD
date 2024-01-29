@@ -1,0 +1,2 @@
+3. Delete two Convs (No.10 and No.14 in the YOLOv5 config)
+업샘플링을 하기 전의 두 컨볼루션 레이어를 삭제했다.

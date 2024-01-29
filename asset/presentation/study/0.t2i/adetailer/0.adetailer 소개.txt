@@ -1,0 +1,3 @@
+After Detailer란?
+스테이블 디퓨전 사용시 얼굴 뭉개짐을 방지할 수 있는 확장 기능 입니다.
+사용한 모델은 제가 직접 학습한 ultralytics의 yolov8과, mediapipe의 얼굴인식 모델입니다.

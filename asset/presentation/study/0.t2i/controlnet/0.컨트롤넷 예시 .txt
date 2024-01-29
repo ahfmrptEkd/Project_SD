@@ -1,0 +1,5 @@
+콘트롤넷은 스테이블 디퓨전 모델 을 제어하기 위한 신경망 모델로서, 단독으로는 사용할 수 없고, 다른 스테이블 디퓨전 모델과 함께 사용해야 합니다. 
+스테이블 디퓨전에서 가장 기본적인 형태는 text-to-image, 즉 텍스트 프롬프트(prompt)를 조건부여(conditioning)로서 입력하면, 이를 바탕으로 이미지를 생성하는 것입니다. ControlNet은 조건부여를 하나 더 추가합니다. ControlNet에도 매우 많은 종류 존재하지만, 여기에서는 인체 자세 감지를 예를 들어 보이겠습니다.
+콘트롤넷에서 인체의 자세를 감지하는 모델로는 Openpose 가 있습니다. 이 모델은 손, 발, 머리 등의 위치와 같은 인간의 자세를 추출하는 빠른 키포인트(keypoint) 감지 모델입니다.
+
+논문 이름: Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet)

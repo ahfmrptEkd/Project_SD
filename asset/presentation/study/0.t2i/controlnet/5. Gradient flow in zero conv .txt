@@ -1,0 +1,19 @@
+Gradient flow in zero convolution1×1convolution 구조를 가지는 zero convolution에 대한 연산 과정에 
+local gradient를 유도할 수 있다. 예컨데 input feature map I∈R^{h×w×c}가 있을때 forward pass는
+그림 1
+
+이처럼 표현되고, zero convolution은 최적화 전까지는 
+W=0,	B=0이기 때문에 I_{p,i}가 0이 아닌 모든 point에 대해서
+그림 2
+
+
+위와 같이 정리된다. Input에 대한 gradient는 0으로 만들지만 weight나 bias에 대한 gradient는 0이 아니기 때문에 학습이 가능하다. 왜냐하면 first step만 지나게 되면 Hadamard product 기호인 ⊙에 대해
+그림 3
+
+0이 아닌 weight를 만들기 때문에 바로 다음 step에서는
+그림 4
+
+고로 학습이 잘된다.
+
+정리하자면 아래처럼 된다.
+그림 5

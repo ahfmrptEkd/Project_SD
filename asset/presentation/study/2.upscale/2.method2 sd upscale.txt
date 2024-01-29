@@ -1,0 +1,6 @@
+img2img에서 script 기능을 통해
+prompt를 적용이 되는 scaler
+i2i 처럼 denoise를 정도를 걸어 줄 수 있다.
+
+왼 오리진
+오 스케일러

@@ -1,0 +1,17 @@
+Zero convolution
+이때 더해질 때 바로바로 이 논문에서 가장 중요한 녀석인 zero convolution이라는 개념이 사용되는데, 각 neural block의 앞/뒤로 하나씩 붙는다고 생각하면 된다. 앞/뒤에 붙는 녀석들을 각각 Z_Θ1 (⋅),Z_Θ2 (⋅)
+라고 해보자. 물론 zero-convolution은 feature map의 크기를 변화시키면 안되기 때문에 1×1크기를 가지는 convolution이며 weight와 bias 모두 zero로 초기화된 상태로 학습이 시작된다.
+
+위의 그림대로 원래의 output y에 conditioning 함수를 거친 output을 더하면 다음과 같다.
+그림 1
+
+
+여기에서 대체 왜 weight 및 bias가 0으로 초기화된 ‘Zero convolution’이 사용되었는지 이유가 등장한다. Zero-convolution은 weight 및 bias가 모두 0이므로, input에 상관없이 처음엔 모두 0을 output으로 내뱉는다.
+그림 2
+즉 처음에는 y_c=y로 시작하게 된다. 해당 내용이 암시하는 것은 training이 시작되는 당시에는 ControlNet 구조에 의한 input/output 관계가 사전 학습된 diffusion의 input/output과 전혀 차이가 없다는 것이고, 이로 인해 optimization이 진행되기 전까지는 neural network 깊이가 증가함에 따라 영향을 끼치지 않는다는 것을 알 수 있다.
+
+
+(b)ControlNet 에서 Zero convolution은 Convolution filter의 가중치 값이 0이 되도록 하는 기술입니다. 일반적으로 Convolution filter의 값이 0이면 결과값(Destination pixel)은 0이 됩니다. 그러나 ControlNet에서는 이를 역전파를 이용해 학습시키는데, 이를 통해 이미지의 실루엣처럼 남아서 가중치 부분이 조건부 생성을 지원합니다.
+
+이는 ControlNet에서 이미 학습된 모델의 의미론을 보존하면서 새로운 조건을 학습시키는 핵심 기술 중 하나입니다. 이러한 ControlNet 구조는 다양한 이미지 생성 작업에서 사용될 수 있으며, 높은 수준의 이미지 생성 결과를 보장합니다.
+

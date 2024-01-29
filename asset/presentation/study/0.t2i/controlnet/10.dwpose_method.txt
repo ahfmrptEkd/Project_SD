@@ -1,0 +1,5 @@
+Method
+two-stage pose distillation(TPD)를 제안
+그림에서도 볼 수 있듯, 2가지 단계로 구성됩니다. 1단계에서는 feature 및 logit 수준에서 처음부터 student를 guiding 하는 pre-trained teacher가 있습니다. 
+그 다음 2단계에서는 self-KD 방식을 사용합니다. 
+자체 logit을 이용하여 레이블이 지정된 데이터 없이 head를 학습함으로서 간단하게 학습을 하되 상당한 성능 향상을 갖고옵니다. 

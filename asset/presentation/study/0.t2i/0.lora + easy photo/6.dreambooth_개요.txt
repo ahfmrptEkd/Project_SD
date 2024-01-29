@@ -1,0 +1,8 @@
+Dreambooth는 구글 연구진이 발표한 논문에서 사용된 학습 방법의 이름으로 Imagen이라는 text-to-image 생성 모델을 어떤 subject에 대한 몇 장의 사진으로 Fine-tuning 하여  개인화된 text-to-image 생성 모델을 만들고 해당 subject를 새로운 context에서 높은 fidelity로 이미지를 생성할 수 있게 해주는 학습 방법이다.
+ 
+Dreambooth는 기존의 Fine-tuning에서 발생하는 다음 두 가지 문제를 해결하는 것을 목표로 제안된 방법이다.
+
+주제 기반의 이미지 생성. 몇 장의 간단한 사진만으로  주제의 시각적 특징에 대한 높은 충실도를 유지하면서 새로운 맥락의 사진을 합성하는 것.
+몇 장의 이미지로 text-to-image diffusion모델을 fine-tuning 하면서도, 기존 모델의 Semantic knowlege를 보존하는 것.
+
+위 내용을 통해 알 수 있듯이, Dreambooth는 기존의 Fine-tuning과는 달리 적은 수의 이미지만으로 모델의 오염(overfitting, language drift) 없이 학습이 가능하기 때문에 개인이 더 손쉽게 fine-tuning이 가능하다는 장점이 있다.

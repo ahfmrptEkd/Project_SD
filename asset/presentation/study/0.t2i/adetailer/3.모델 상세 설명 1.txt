@@ -1,0 +1,6 @@
+1. Replace the C3 module with the C2f module
+Yolov5의 C3 layer가 C2f layer로 교체되었다.
+
+C3에 비해 C2f의 총 파라미터 수는 조금 더 적으면서도 동일한 성능을 낸다.
+
+C3과 C2f의 히든 채널 수는 동일하다.

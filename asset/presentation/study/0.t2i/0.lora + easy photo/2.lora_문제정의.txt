@@ -1,0 +1,11 @@
+1. 기존의 LLM모델(예를 들어 GPT)를 하나의 확률함수 PΦ(y|x)라고 하겠다. (여기서 y와 x는 context-target pair쌍이라고 생각하면 편함.)
+
+2. 그리고 fine-tuning과정에서 LLM이 튜닝되는 Φ가 최적화 되는 식은 equation1처럼 표현 될 수 있다.
+
+    - Log-likelihood function으로 문제를 해결할 때 가장 적합한 파라미터 Φ의 나올 확률을 최대화 하는 것이라고 생각하면 된다.
+
+    - 직관적으로 backpropagation할 때의 모델을 나타내면, Φ = Φ0 + ΔΦ 이렇게 된다.
+
+3. Eqaution1에 근거하여 만약 accmulated gradient values(ΔΦ)를 기존보다 훨씬 적은 파라미터인 Θ로 치환하여  ΔΦ(Θ)로 나타내면 equation2로 바뀌게 된다.
+
+    - 즉 기존의 log-likelihood 문제에서 모델이 backpropagation 과정에서 이용되는 파라미터 연산문제를 더 적은 파라미터 Θ로 치환하여 풀겠다는 의미이다.

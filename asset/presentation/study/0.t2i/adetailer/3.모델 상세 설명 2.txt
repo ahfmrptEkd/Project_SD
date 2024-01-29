@@ -1,0 +1,6 @@
+그안에 있는 모델의 conv size가 작아짐.
+2. Replace the first 6x6 Conv with 3x3 Conv in the Backbone
+첫번째 컨볼루션 모델의 커널크기가 6x6에서 3x3으로 줄었다.
+
+커널 사이즈가 작아짐으로써 총 파라미터 수도 절반 이하로 줄었다.
+

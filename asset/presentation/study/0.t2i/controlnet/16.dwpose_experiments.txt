@@ -1,0 +1,2 @@
+Experiments
+실험을 위해 데이터세트는 Ubody, COCO를 사용했다고 합니다. detector는 SimpleBaseline에서 사용된 것을 썼습니다. 참고로 UBody는 15개의 실제 시나리오에서 1백만 개 이상의 프레임으로 구성됩니다. 해당하는 133개의 2d 키포인트와 SMPL-X 매개변수를 제공하고, 특히 원본 데이터 세트는 3D whole- body estimation 에만 초점을 맞추고 2D annotations의 효과를 검증하지 않습니다. training and testing에 사용되는 비디오에서 10프레임 간격으로 모든 프레임을 선택하여 생성되었습니다. 또한 논문을 보시면 Implementation details이 나와있습니다. 

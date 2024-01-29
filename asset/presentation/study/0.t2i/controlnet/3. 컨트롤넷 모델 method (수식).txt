@@ -1,0 +1,12 @@
+Method
+그렇다면 구체적으로 어떻게 해당 학습이 효과적으로 conditioning을 할 수 있는지 수식적으로 살펴보도록 하자. 예컨데 conditioning을 하는 neural network block은 흔히 우리가 알고있는 resnet에서의 bottleneck block이나 transformer의 multi-head attention block을 생각하면 된다.
+
+2D(이미지와 같은 형태)의 feature를 예시로 들어보자. 만약 feature map 
+x∈R^{h×w×c}
+가 정의되어 있다면, neural network block 
+F_Θ(⋅)는 블록에 포함되는 parameter Θ를 통해 input feature map x를 transform하게 된다.
+y=F_Θ (x)
+
+바로 이 과정이 앞서 그림에서 봤던 (a)에 해당된다. 이제부터 해당 parameter Θ는 잠궈놓을 것이다(학습하지 않을 것). 그리고 이를 똑같이 복사한 trainable parameter Θ c는 잠궈놓은 친구와는 다르게 input condition c를 input으로 받아 학습에 사용될 것이다.
+참고로 더해지는 부분에 대해서는 네트워크가 activation을 저장해놓을 필요가 없기 때문에 학습 시에 메모리를 2배로 가질 필요성도 없어진다. Backpropagation을 통해 계산된 gradient는 학습 가능한 모델에 대해서만 optimization을 진행할 것이기 때문이다.
+

@@ -1,0 +1,6 @@
+LoRA는 공식 페이퍼는 없음.
+
+- https://huggingface.co/blog/lora
+- https://stable-diffusion-art.com/lora/
+
+참고

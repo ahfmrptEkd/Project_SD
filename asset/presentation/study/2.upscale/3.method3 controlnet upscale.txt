@@ -1,0 +1,6 @@
+method3
+img2img에서 sd upscale 처럼 설정을 하고
+이번에는 ControlNet을 통해, tile_resample preprocessor를 통해 이미지를 고정하고 샘플링하게끔 하는 방식이다.
+
+왼 오리진
+오 스케일러

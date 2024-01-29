@@ -1,0 +1,1 @@
+dream-booth를 fine-tuning하고 학습하기에는 시간과 자원이 부족하다고 판단하였고, civit ai에서 이미 잘 만들어진 개인화된 base model들을 찾아 쓰는게 좋다고 판단하여 시간을 들여 위 모델을 찾았다.
